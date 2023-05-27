@@ -1,0 +1,252 @@
+
+1. Write a java program to check if a number is even or odd.
+
+class EvenOdd{
+    
+    public static void main(String args[]){
+        int x=10;
+        if(x%2==0){
+            System.out.println(x + " is even no.");
+        }
+        else{
+            System.out.println(x + " is odd no.");
+        }
+    }
+}
+
+******************************************************************************************************************
+
+2. Write a java program, take a number, and print whether it is less than 10 or
+greater than 10.
+
+class SmallerGreaterNo{
+    
+    public static void main(String args[]){
+        int x=7;
+        if(x<10){
+            System.out.println(x + " is smaller than 10 ");
+        }
+        else if(x>10){
+            System.out.println(x + " is greater than 10 ");
+        }
+        
+        else{
+            System.out.println("Both are equal");
+        }
+    }
+}
+
+******************************************************************************************************************
+
+3.Write a java program, take a number, and print whether it is positive or
+negative.
+
+class Solution3{
+    
+    public static void main(String args[]){
+        int x=7;
+        if(x<0){
+            System.out.println(x + " is negative no. ");
+        }
+        else if(x>0){
+            System.out.println(x + " is positive no. ");
+        }
+        
+        else{
+            System.out.println("Nor positive Nor negative");
+        }
+    }
+}
+
+******************************************************************************************************************
+
+4: Write a java program that checks a number from 0 to 5 and prints its
+spelling, if the number is greater than 5 print the number is greater than 5
+
+class Solution4{
+    
+    public static void main(String args[]){
+        int x=2;
+        if(x<0){
+            System.out.println(x + " Invalid no. ");
+        }
+        else if(x==0){
+            System.out.println(" Zero ");
+        }
+        else if(x==1){
+            System.out.println(" One ");
+        }
+        else if(x==2){
+            System.out.println(" Two ");
+        }
+        else if(x==3){
+            System.out.println(" Three ");
+        }
+        else if(x==4){
+            System.out.println(" Four");
+        }
+        else if(x==5){
+            System.out.println(" Five ");
+        }
+        
+        else{
+            System.out.println(" No.is Greater than 5");
+        }
+    }
+}
+  
+ ******************************************************************************************************************
+
+5: Write a java program, in which according to month no print the no. of
+days in that month
+
+
+class Solution5{
+    
+    public static void main(String args[]){
+        int x=7;
+        if(x<0 || x>12){
+            System.out.println(x + " Invalid no. ");
+        }
+        else if(x==1){
+            System.out.println(" Jan has 31 days ");
+        }
+        else if(x==2){
+            System.out.println(" Feb has 28 or 29 days ");
+        }
+        else if(x==3){
+            System.out.println(" Mar has 31 days ");
+        }
+        else if(x==4){
+            System.out.println(" Apr has 30 days ");
+        }
+        else if(x==5){
+            System.out.println(" May has 31 days");
+        }
+        else if(x==6){
+            System.out.println(" June has 30 days ");
+        }
+        else if(x==7){
+            System.out.println(" July has 31 days ");
+        }
+        else if(x==8){
+            System.out.println(" Aug has 30 days ");
+        }
+        else if(x==9){
+            System.out.println(" Sept has 31 days ");
+        }
+        else if(x==10){
+            System.out.println(" Oct has 30 days ");
+        }
+        else if(x==11){
+            System.out.println(" Nov has 30 days ");
+        }
+        
+        else{
+            System.out.println(" Dec has 31 days ");
+        }
+    }
+}
+  
+ ******************************************************************************************************************   
+  
+6: Calculate profit or loss.
+Write a program that takes the cost price and selling price (take it hardcoded) and
+calculates its profit or loss
+  
+class Solution6{
+    
+    public static void main(String args[]){
+        int selling_Price=1003450000;
+        int cost_Price=100003456;
+        
+        if(selling_Price>cost_Price){
+            System.out.println("Profit of "+ (selling_Price- cost_Price));
+        }
+     
+        else if(cost_Price>selling_Price){
+            System.out.println("Loss of "+(cost_Price-selling_Price));
+        }
+        else{
+            System.out.println("Nor profit nor loss");
+        }
+    }
+}
+  
+    
+******************************************************************************************************************
+ 
+7: Write a program to check day number(1-7) and print the corresponding
+day of week
+
+
+class Solution7{
+    
+    public static void main(String args[]){
+        int x=7;
+    
+        
+        if(x<0 || x>7){
+            System.out.println("Invalid no.");
+        }
+     
+        else if(x==1){
+            System.out.println("Monday");
+        }
+         else if(x==2){
+            System.out.println("Tuesday");
+        }
+         else if(x==3){
+            System.out.println("Wednesday");
+        }
+         else if(x==4){
+            System.out.println("Thursday");
+        }
+         else if(x==5){
+            System.out.println("Friday");
+        }
+         else if(x==6){
+            System.out.println("Saturday");
+        }
+        else{
+            System.out.println("Sunday");
+        }
+    }
+}
+  
+******************************************************************************************************************    
+ 
+7: Write a program in java to accept three numbers and check whether they
+are Pythagorean triplets or not
+  
+
+class Solution7{
+    
+    public static void main(String args[]){
+        int a=7;
+        int b=6;
+        int c=5;
+    
+        
+        if(a*a==b*b+c*c || b*b==a*a+c*c || c*c==a*a+b*b ){
+            System.out.println("This is Pytha");
+        }
+     
+   
+        else{
+            System.out.println("This is not Pytha");
+        }
+    }
+}
+  
+    
+    
+    
+    
+*************************************************************EXIT*************************************************
+    
+    
+
+    
+    
+    
